@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="700dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Όνομα"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/black"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Κατηγορία"
+            android:textSize="18sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_price_range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Τιμές"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_food_items_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Διαθέσιμα Φαγητά:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <ListView
+            android:id="@+id/product_list"
+            android:layout_width="wrap_content"
+            android:layout_height="534dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/order_summary_layout"
+            android:layout_width="246dp"
+            android:layout_height="132dp"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:paddingTop="12dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/total_items_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Σύνολο: " />
+
+            <Button
+                android:id="@+id/order_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:layout_marginStart="16dp"
+                android:text="Παραγγελία" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

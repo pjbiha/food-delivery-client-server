@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/n_a"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="12dp"
+            />
+
+        <TextView
+            android:id="@+id/list_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a sample"
+            android:textSize="29dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5sp"/>
+        <TextView
+            android:id="@+id/list_item_reviews"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/list_item_subtext"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="This is a subtext"
+        android:textSize="29dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5sp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
