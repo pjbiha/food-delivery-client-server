@@ -82,3 +82,33 @@ The **Android app**:
 - Shows product lists for a store and lets the user place orders and rate stores.   
 
 The code uses plain Java sockets and simple text-based commands between components (no HTTP, no external libraries).
+
+
+
+# Screenshots
+
+Here are some sample screens from the Android frontend:
+
+### Main Menu  
+Displays available stores, their categories, price ranges, and ratings.
+
+<img width="383" height="850" alt="image" src="https://github.com/user-attachments/assets/69d1316b-becb-4527-b218-6ae6e233e173" />
+
+
+---
+
+### Store Page  
+Shows the products offered by the selected store.
+
+<img width="381" height="851" alt="image" src="https://github.com/user-attachments/assets/98c066fb-8e04-4303-8e1e-4cba193d3cfd" />
+
+
+---
+
+### Order Summary  
+Users can adjust quantities and place an order.
+
+<img width="378" height="856" alt="image" src="https://github.com/user-attachments/assets/c8e1bb50-079b-461a-a3f2-1d99a517515a" />
+
+
+
